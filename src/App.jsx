@@ -1,5 +1,5 @@
 import './App.css'
-import Registro from './components/registro/registro'
+import Registro from './componentes/registro/registro'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {

@@ -1,0 +1,51 @@
+import './sesion.css'
+const Sesion = () => {
+    return (
+        <>
+      	<div className="form-container">
+          <div className="text-center mb-4">
+            <span className="paw-icon">🐾</span>
+            <h2 className="d-inline">Crear Cuenta</h2>
+          </div>
+      
+          <form>
+            <div className="mb-3">
+              <label for="nombreCompleto" class="form-label">Nombre Completo</label>
+              <input type="text" className="form-control" id="nombreCompleto"
+                placeholder="Por favor, introduzca su nombre y apellidos">
+            </div>
+      
+            <div className="mb-3">
+              <label for="correo" className="form-label">Correo</label>
+              <input type="email" className="form-control" id="correo" placeholder="ejemplo@dominio.com">
+            </div>
+      
+            <!-- Contraseña -->
+            <div className="mb-3 position-relative">
+              <label for="password" className="form-label">ContraseÃ±a</label>
+              <input type="password" className="form-control" id="password" placeholder="Por favor, introduzca su contraseÃ±a">
+            </div>
+      
+            <!-- Confirmar contraseña -->
+            <div className="mb-3 position-relative">
+              <label for="confirmarPassword" className="form-label">Confirmar contraseña</label>
+              <input type="password" className="form-control" id="confirPassword" placeholder="Por favor, confirme su contraseña">
+            </div>
+      
+            <div className="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="hogarTransito">
+              <label class="form-check-label" for="hogarTransito">¿Quieres ser hogar de tránsito?</label>
+            </div>
+      
+            <div className="d-grid mb-3">
+              <button type="submit" className="btn btn-primary">Registrarme</button>
+            </div>
+      
+            <p className="text-center">Â¿Ya tienes cuenta? <a href="#" className="text-link">Inicia SesiÃ³n</a></p>
+          </form>
+        </div>
+      	</>
+        )
+}
+
+export default Sesion;

@@ -3,8 +3,8 @@ const Registro = () => {
     return (
         <>
         <div className='cabecera'>
-            <h2>Registro de mascota</h2>
             <span class="paw-icon">🐾</span>
+            <h2>Registro de mascota</h2>
         </div>
         <div className="registro">
             <form>

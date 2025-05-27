@@ -39,10 +39,10 @@ const Sesion = () => {
               </div>
         
               <div className="d-grid mb-3">
-                <button type="submit" className="btn btn-primary">Registrarme</button>
+                <button type="submit" className="boton-registro">Registrarme</button>
               </div>
         
-              <p className="text-center">Â¿Ya tienes cuenta? <a href="#" className="text-link">Inicia SesiÃ³n</a></p>
+              <p className="text-center">¿Ya tienes cuenta? <a href="#" className="text-link">Inicia Sesión</a></p>
             </form>
           </div>
         </>

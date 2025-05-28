@@ -1,8 +1,3 @@
-.navmenu {
-    background-color: beige;
-    display: flex;
-    justify-content: left;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+h2 {
+    text-align: center;
 }

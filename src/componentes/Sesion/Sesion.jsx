@@ -11,31 +11,31 @@ const Sesion = () => {
           <div className='registro'>
             <form>
               <div className="mb-3">
-                <label for="nombreCompleto" class="form-label">Nombre Completo</label>
+                <label htmlFor="nombreCompleto" className="form-label">Nombre Completo</label>
                 <input type="text" className="form-control" id="nombreCompleto"
                   placeholder="Por favor, introduzca su nombre y apellidos"/>
               </div>
         
               <div className="mb-3">
-                <label for="correo" className="form-label">Correo</label>
+                <label htmlFor="correo" className="form-label">Correo</label>
                 <input type="email" className="form-control" id="correo" placeholder="ejemplo@dominio.com"/>
               </div>
         
 
               <div className="mb-3 position-relative">
-                <label for="password" className="form-label">Contraseña</label>
+                <label htmlFor="password" className="form-label">Contraseña</label>
                 <input type="password" className="form-control" id="password" placeholder="Por favor, introduzca su contraseña"/>
               </div>
         
 
               <div className="mb-3 position-relative">
-                <label for="confirmarPassword" className="form-label">Confirmar contraseña</label>
+                <label htmlFor="confirmarPassword" className="form-label">Confirmar contraseña</label>
                 <input type="password" className="form-control" id="confirPassword" placeholder="Por favor, confirme su contraseña"/>
               </div>
         
               <div className="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="hogarTransito"/>
-                <label class="form-check-label" for="hogarTransito">¿Quieres ser hogar de tránsito?</label>
+                <input type="checkbox" className="form-check-input" id="hogarTransito"/>
+                <label className="form-check-label" for="hogarTransito">¿Quieres ser hogar de tránsito?</label>
               </div>
         
               <div className="d-grid mb-3">

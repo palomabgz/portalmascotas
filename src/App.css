@@ -6,57 +6,55 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 40px;
 }
 
 .buscador {
     display: flex;
+    width: 100%;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    justify-content: right;
     gap: 10px;
+    margin-right: 40px;
 }
 
-.navbar-nav {
+.barra {
+    border-radius: 10px;
+    border-color: none;
+    height: 30px;
+    width: 300px;
+}
+
+.boton-barra {
+    width: 80px;
+    height: 30px;
+    background-color: #cb6c77;
+    border-color: #cb6c77;
+    border-radius: 8px;
+}
+
+.sesion {
+    width: 400px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-}
-
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+    gap: 30px;
+    margin-right: 30px;
 }

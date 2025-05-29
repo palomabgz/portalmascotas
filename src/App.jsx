@@ -9,18 +9,21 @@ function App() {
   return (
     <BrowserRouter>
       <nav className="navmenu">
-        <img src="#" alt="logo"/>
-        <Link className="nav-link" to="/">Inicio</Link>
-        <Link className="nav-link" to="/registro">Registrate</Link>
-        <Link className="nav-link" to="/sesion">Iniciar Sesión</Link>
-        <Link className="nav-link" to="/catalogo">Catálogo de Mascotas</Link>
+        <img src="#" alt="logo" className='logo'/>
+        <div className="menu">
+          <Link className="nav-link" to="/">Inicio</Link>
+          <Link className="nav-link" to="/catalogo">Catálogo</Link>
+        </div>
         <div className='buscador'>
-          <input type="text" placeholder='Buscar' />
-          <button>Buscar</button>
+          <input type="text" placeholder='Buscar' className='barra'/>
+          <button className='boton-barra'>Buscar</button>
+        </div>
+        <div className="sesion">
+          <Link className="nav-link" to="/registro">Registrar Mascota</Link>
+          <Link className="nav-link" to="/sesion">Crear Cuenta</Link>
         </div>
       </nav>
 
-      {/* Rutas */}
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/registro" element={<Registro />} />
